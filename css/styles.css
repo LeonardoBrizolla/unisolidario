@@ -735,6 +735,9 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
+.row-projects {
+  --bs-gutter-y: 1.5rem;
+}
 
 .col {
   flex: 1 0 0%;
@@ -11893,7 +11896,7 @@ html {
 }
 
 .divulge {
-  background-color: #1abc9c4f;
+  background-color: #373a59;
   border-radius: 8px;
 }
 
