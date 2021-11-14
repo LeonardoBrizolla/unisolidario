@@ -735,9 +735,6 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
-.row-projects {
-  --bs-gutter-y: 1.5rem;
-}
 
 .col {
   flex: 1 0 0%;
@@ -11904,4 +11901,12 @@ html {
   padding: 50px 18px;
   background-color: #44475a;
   border-radius: 8px;
+}
+
+.row-projects div {
+  margin-top: 1.5rem;
+}
+
+.divider-custom.rm-margin-bottom {
+  margin-bottom: 0;
 }
